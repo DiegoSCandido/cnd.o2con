@@ -19,9 +19,9 @@ export function LoginPage() {
 
   const form = useForm<FormValues>({
     initialValues: {
-      email: 'sou@email.com',
-      password: '123456',
-      remember: true,
+      email: '',
+      password: '',
+      remember: false,
     },
   })
 
